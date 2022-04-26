@@ -4,13 +4,23 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+     This application opens to a map provided by the Google Maps API. As the user scrolls around the map and zooms, the app generates a URL query to the USGS REST Service site based on the central coordinates (Figure 1). 
+ 
+   <img width="464" alt="image" src="https://user-images.githubusercontent.com/90277439/165370537-fa770832-0866-408a-b2cb-0643e777dbc5.png">
 
-A few resources to get you started if this is your first Flutter project:
+   Figure 1 Example URL of REST Web Service query for stations
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+If stations exist within the range of the map in frame, the site returns a JSON file that is parsed for station markers that are then added to the map. URL queries are only generated if the zoom level of the map is 11 or greater. 
+     Once the stations are populated, the user can click on the station marker. When the station marker is clicked, the title of an elevated card at the bottom of the screen is updated with that text. The user can then drag the card up and click a button for flow or gage height data. When the user clicks either button, another URL query is generated for the desired data from a period of 90 days prior to the current date (Figure 2). The USGS site returns a JSON file which is parsed by the application to generate a list which is then plotted to the graph.  
+ 
+   <img width="448" alt="image" src="https://user-images.githubusercontent.com/90277439/165370584-443ef7d0-b9af-453d-b8c4-258a4d9ec947.png">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   Figure 2 Example URL of REST Web Service query for flow data
+
+
+     The application works as described but requires some work before publishing to the Google Play Store and Apple App Store. Currently there are no status indicators on the app that communicate to the user if an action has triggered a response that is loading. There should also be some indicator of when the user has zoomed to a sufficient level to trigger a query. 
+
+
+## USGS Monitoring Data App Storyboard
+ 
+![image](https://user-images.githubusercontent.com/90277439/165370367-fae49dfe-b325-418e-b1dd-eaaa55f81346.png)
