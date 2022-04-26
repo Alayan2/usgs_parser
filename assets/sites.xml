@@ -1,0 +1,38 @@
+<sites>
+    <Placemark id="14206900">
+        <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-122.7348194,45.4878958</coordinates>
+        </Point>
+        <styleUrl>#sw</styleUrl>
+        <name>14206900</name>
+        <description>&lt;TABLE&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site:&lt;/B&gt;14206900&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site Name:&lt;/B&gt;FANNO CREEK AT 56TH AVE, AT PORTLAND, OR&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;A HREF="http://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&amp;site_no=14206900"&gt;Access Data&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;</description>
+    </Placemark>
+    <Placemark id="14211542">
+        <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-122.6420388,45.4740079</coordinates>
+        </Point>
+        <styleUrl>#sw</styleUrl>
+        <name>14211542</name>
+        <description>&lt;TABLE&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site:&lt;/B&gt;14211542&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site Name:&lt;/B&gt;CRYSTAL SPRINGS CREEK AT BYBEE ST, PORTLAND, OR&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;A HREF="http://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&amp;site_no=14211542"&gt;Access Data&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;</description>
+    </Placemark>
+    <Placemark id="14211546">
+        <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-122.642872,45.4606747</coordinates>
+        </Point>
+        <styleUrl>#sw</styleUrl>
+        <name>14211546</name>
+        <description>&lt;TABLE&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site:&lt;/B&gt;14211546&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site Name:&lt;/B&gt;CRYSTAL SPRINGS CREEK AT MOUTH AT PORTLAND, OR&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;A HREF="http://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&amp;site_no=14211546"&gt;Access Data&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;</description>
+    </Placemark>
+    <Placemark id="14211720">
+        <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-122.6691667,45.5175</coordinates>
+        </Point>
+        <styleUrl>#sw</styleUrl>
+        <name>14211720</name>
+        <description>&lt;TABLE&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site:&lt;/B&gt;14211720&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD NOWRAP&gt;&lt;B&gt;Site Name:&lt;/B&gt;WILLAMETTE RIVER AT PORTLAND, OR&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;A HREF="http://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&amp;site_no=14211720"&gt;Access Data&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;</description>
+    </Placemark>
+</sites>
